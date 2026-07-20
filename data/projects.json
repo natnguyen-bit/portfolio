@@ -1,0 +1,200 @@
+[
+  {
+    "id": "boozebuddy",
+    "title": "Booze Buddy",
+    "summary": "A UX-focused mobile app prototype promoting safer drinking habits for university students navigating social drinking culture.",
+    "tags": ["User Safety UX"],
+    "date": "Nov 2024",
+    "role": "Product Designer",
+    "tools": "Figma, Prototyping",
+    "preview": "assets/images/boozebuddy-preview.png",
+    "image": "assets/images/boozebuddy/friends.png",
+    "video": "assets/video/boozebuddy-prototype.mp4",
+    "videoFallback": "assets/video/boozebuddy-prototype.mov",
+    "overview": "The project was created to explore how design can address social drinking in student life. Through this project, I aimed to apply UX principles to promote harm reduction and social connection, focusing on user-centered design practices.",
+    "problem": "How might we support young adults in developing healthier drinking habits while still feeling socially confident?",
+    "objective": "To promote safe and mindful drinking by reducing risks through accessible tools that enable real-time decision-making.",
+    "solution": "Booze Buddy meets students where they are — real-time drink tracking, a help center, and safer choices without sacrificing social confidence.",
+    "screens": [
+      { "src": "assets/images/boozebuddy/resources.png", "label": "Resources hub" },
+      { "src": "assets/images/boozebuddy/onboarding.png", "label": "Onboarding survey" },
+      { "src": "assets/images/boozebuddy/lock-contacts.png", "label": "Lock contacts" },
+      { "src": "assets/images/boozebuddy/help-center.png", "label": "Help center" },
+      { "src": "assets/images/boozebuddy/friends.png", "label": "Friends & location" },
+      { "src": "assets/images/boozebuddy/notification.png", "label": "Push notification" },
+      { "src": "assets/images/boozebuddy/login.png", "label": "Login & sign up" },
+      { "src": "assets/images/boozebuddy/splash.png", "label": "Splash screen" }
+    ]
+  },
+  {
+    "id": "kings-pastry",
+    "title": "King's Pastry",
+    "summary": "AI-assisted marketing design — print, web mockups, and analytics for a local bakery.",
+    "tags": ["Marketing Design", "AI Workflow"],
+    "date": "Sept–Dec 2025",
+    "role": "Marketing Designer",
+    "tools": "Figma, AI tools, Google Analytics",
+    "preview": "assets/images/kings-pastry-folder.png",
+    "image": "assets/images/kings-pastry-hero.png",
+    "video": "assets/video/kings-pastry-walkthrough.mp4",
+    "videoMockup": "assets/images/laptop-mockup.png",
+    "videoPoster": "assets/images/kings-pastry-video-poster.png",
+    "videoTitle": "Web & Landing Pages",
+    "videoDesc": "High-fidelity landing pages with market data callouts, product imagery, and clear CTAs.",
+    "overview": "Marketing design for a seasonal bakery brand — product launches across print and web, with AI tools supporting front-end setup and analytics.",
+    "problem": "How might we grow brand presence across print and digital without a full in-house team?",
+    "objective": "Ship cohesive campaign assets and measure engagement using AI-assisted workflows.",
+    "solution": "Sell sheets, landing pages, and event collateral — plus faster front-end and analytics setup.",
+    "blockStyle": "feature",
+    "challenges": [
+      {
+        "title": "AI-Assisted Workflow",
+        "body": "Used AI to generate the Google Analytics 4 install snippet for Webflow, then monitored traffic, geography, and engagement to inform marketing decisions.",
+        "images": [
+          { "src": "assets/images/kings-pastry-ai-analytics.png", "label": "AI-generated GA4 setup for Webflow" },
+          { "src": "assets/images/kings-pastry-ga.png", "label": "Google Analytics reports snapshot" }
+        ]
+      },
+      {
+        "title": "Print & Campaign Design",
+        "body": "Posters and sell sheets for the Ube Jelly Roll and Pandan Mini Mousse Cake launches.",
+        "images": [
+          { "src": "assets/images/kings-pastry-poster.png", "label": "Street poster — ube jelly roll & pandan mousse" }
+        ]
+      },
+      {
+        "title": "Marketing Collateral",
+        "body": "Menu cards and pull-up banners for the Mini Bundt Cakes twin-pack campaign.",
+        "images": [
+          { "src": "assets/images/kings-pastry-banner.png", "label": "Purchasing manager card & roll-up banner" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nekobeat",
+    "title": "Neko Beat",
+    "summary": "A rhythm game exploring Parkinson's through controlled friction — designed in Figma and built with p5.js using Cursor.",
+    "tags": ["Game Design", "UI", "AI Coding"],
+    "date": "Mar–Apr 2026",
+    "role": "UI Designer, Programmer",
+    "tools": "p5.js, JavaScript, Figma, Cursor",
+    "preview": "assets/images/nekobeat-preview.png",
+    "image": "assets/images/nekobeat-hero.png",
+    "link": "https://n25nguyen.github.io/A3_Group7B/",
+    "linkLabel": "Play the game →",
+    "overview": "Built for a design brief on representing a human condition through interaction. I led visual and interaction design, then co-developed the game in p5.js with Cursor — using AI to implement HUD, controls, and gameplay systems from design decisions.",
+    "problem": "Parkinson's is widely recognized but rarely understood experientially — most representations focus on symptoms, not the lived difficulty of intentional movement and timing.",
+    "objective": "Design a rhythm game that introduces controlled friction in timing and coordination, while staying engaging and playable.",
+    "solutionTitle": "How it works",
+    "solution": "Notes travel down lanes toward a hit bar. Players start with F and J, then unlock more keys in later levels. Mistimed presses create friction that echoes disrupted motor control — not as a clinical simulation, but as a felt timing challenge.",
+    "blockStyle": "feature",
+    "challenges": [
+      {
+        "title": "AI-assisted development",
+        "body": "Used Cursor to turn design ideas into working code — multi-file edits for score/combo HUD, pause overlay, mute controls, and keyboard instruction clarity. I directed the gameplay intent; AI accelerated implementation across HTML, CSS, and sketch.js.",
+        "images": [
+          { "src": "assets/images/nekobeat-ai-cursor.png", "label": "Building Neko Beat in Cursor" }
+        ]
+      },
+      {
+        "title": "Controls & coordination",
+        "body": "Players start with F and J (left/right hand), then later levels add more keys. Split-hand timing forces bilateral coordination under pressure.",
+        "images": [
+          { "src": "assets/images/nekobeat-instructions.png", "label": "Instructions — start with F & J" }
+        ]
+      },
+      {
+        "title": "Visual language",
+        "body": "Synthwave neon and kawaii characters keep the tone approachable, so the friction feels like a game challenge rather than a clinical demo.",
+        "images": [
+          { "src": "assets/images/nekobeat-title.png", "label": "Title screen" }
+        ]
+      }
+    ],
+    "placeholders": [
+      { "label": "Gameplay recording", "note": "15–30s clip of playing — send when ready." },
+      { "label": "Hit / miss moment", "note": "Screenshot of a successful hit or mistimed miss." }
+    ]
+  },
+  {
+    "id": "sweet-soaperie",
+    "title": "Sweet Soaperie",
+    "summary": "Brand and packaging design for a handmade soap company — visual identity, product labels, and marketing materials.",
+    "tags": ["Branding", "Packaging"],
+    "date": "TBD",
+    "role": "Designer",
+    "tools": "Figma, Illustrator",
+    "preview": "",
+    "image": "",
+    "draft": true,
+    "overview": "Brand identity and packaging design for Sweet Soaperie — a handmade soap brand. Content coming soon.",
+    "problem": null,
+    "objective": null,
+    "solution": null,
+    "screens": []
+  },
+  {
+    "id": "sprout",
+    "title": "Sprout",
+    "summary": "UX/UI project focused on growth, wellness, or habit-building — details coming soon.",
+    "tags": ["UX/UI"],
+    "date": "TBD",
+    "role": "Product Designer",
+    "tools": "Figma",
+    "preview": "",
+    "image": "",
+    "draft": true,
+    "overview": "Sprout — a UX/UI design project. Full case study content coming soon.",
+    "problem": null,
+    "objective": null,
+    "solution": null,
+    "screens": []
+  },
+  {
+    "id": "ux-explorations",
+    "title": "UX Explorations",
+    "summary": "Ongoing personal design explorations — from invite flows to onboarding, pushing UI craft through self-directed challenges.",
+    "tags": ["Personal", "UI Design"],
+    "date": "2025 — Now",
+    "role": "Personal Designs",
+    "tools": "Figma",
+    "preview": "assets/images/explorations-hero.png",
+    "image": "assets/images/explorations-hero.png",
+    "overview": "This space showcases my ongoing UX/UI explorations — from design challenges to experimental ideas I'm currently developing.",
+    "problem": null,
+    "objective": null,
+    "solution": null,
+    "screens": [
+      "assets/images/explorations-invite.png",
+      "assets/images/explorations-join.png"
+    ],
+    "challenges": [
+      {
+        "title": "Inviting Teammates",
+        "body": "A high-fidelity feature for adding multiple team members with intuitive navigation and clear feedback."
+      },
+      {
+        "title": "Joining & Accepting",
+        "body": "A sign-up and invitation acceptance flow emphasizing clarity and minimal input."
+      }
+    ]
+  },
+  {
+    "id": "soonhari",
+    "title": "Soonhari",
+    "summary": "Brand and product design for Soonhari — visual identity, packaging, or digital experience. Content coming soon.",
+    "tags": ["Branding", "Product Design"],
+    "date": "TBD",
+    "role": "Designer",
+    "tools": "Figma",
+    "preview": "",
+    "image": "",
+    "draft": true,
+    "overview": "Soonhari — brand and design project. Full case study content coming soon.",
+    "problem": null,
+    "objective": null,
+    "solution": null,
+    "screens": []
+  }
+]

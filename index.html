@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nat Nguyen — Product designer and UX/UI designer based in Waterloo, Canada.">
+  <title>Nat Nguyen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo script">Nat Nguyen</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-name script">Nat Nguyen</h1>
+        <p class="hero-role">Product Designer · UX/UI</p>
+        <p class="hero-location">Waterloo, Canada</p>
+        <a href="#work" class="hero-cta">View work</a>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="work-header">
+        <h2 class="script">Work</h2>
+        <p id="project-count">7 projects</p>
+      </div>
+      <div class="project-grid" id="project-grid" role="list"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-grid">
+        <div class="about-block">
+          <span class="about-index">01</span>
+          <h2 class="script">About</h2>
+          <p class="about-lead">I'm Nat, a product designer from Canada.</p>
+          <p>When I'm not designing, you'll find me hunting for the best matcha in town, watching movies, or drawing things that probably won't see the light of day.</p>
+          <img src="assets/images/about-portrait.png" alt="Hand-drawn portrait of Nat" class="about-sketch" loading="lazy">
+        </div>
+        <div class="about-block">
+          <span class="about-index">02</span>
+          <h3>B.A. Global Business &amp; Digital Arts</h3>
+          <p class="about-school">University of Waterloo · 2023–2027</p>
+          <p>I get frustrated by bad UX, cluttered interfaces, and design that doesn't consider real people. I don't get frustrated by iteration, feedback, or starting over when something isn't working.</p>
+          <p>I'm a product designer who cares about solving problems and expressing myself through the work — whether that's a mobile app, a rhythm game, or a bakery poster.</p>
+          <img src="assets/images/about-cat.png" alt="Hand-drawn cat sketch" class="about-sketch about-sketch--small" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="resume" id="resume">
+      <div class="resume-inner">
+        <div class="resume-header">
+          <h2 class="script">Resume</h2>
+          <a href="assets/Nat-Nguyen-Resume-2026.pdf" class="btn" download>Download PDF</a>
+        </div>
+        <div class="resume-grid">
+          <div class="resume-col">
+            <h3>Experience</h3>
+            <article class="resume-item">
+              <div class="resume-item-head">
+                <strong>Marketing Designer</strong>
+                <span>King's Pastry · Sept–Dec 2025</span>
+              </div>
+              <p>Wireframes, landing pages, AI-assisted front-end, Google Analytics, competitive analysis, print &amp; digital marketing assets.</p>
+            </article>
+            <article class="resume-item">
+              <div class="resume-item-head">
+                <strong>UX/UI Design</strong>
+                <span>Sun Life uXperience Sprint · Nov 2024</span>
+              </div>
+              <p>End-to-end mobile budgeting app in a 12-hour sprint. Personas, journey maps, Figma wireframes. Placed 3rd of 100.</p>
+            </article>
+          </div>
+          <div class="resume-col">
+            <h3>Skills</h3>
+            <ul class="skill-tags">
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Wireframing</li>
+              <li>Prototyping</li>
+              <li>ChatGPT</li>
+              <li>Cursor</li>
+              <li>Google Analytics</li>
+            </ul>
+            <h3 class="resume-sub">Education</h3>
+            <p class="resume-edu">BA Global Business &amp; Digital Arts<br>University of Waterloo · 2023–2027</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="script">Contact</h2>
+      <div class="contact-links">
+        <a href="mailto:natthynguyen02@gmail.com">natthynguyen02@gmail.com</a>
+        <a href="https://linkedin.com/in/nat-nguyen" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/natnguyen-bit" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Nat Nguyen</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
