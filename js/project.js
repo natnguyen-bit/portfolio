@@ -65,10 +65,10 @@ function renderVideo(p) {
         <div class="case-laptop-screen">${player}</div>
         <img class="case-laptop-frame" src="${p.videoMockup}" alt="" aria-hidden="true">
       </div>`
-    : `<div class="case-video-wrap">${player}</div>`;
+    : `<div class="case-video-wrap${p.videoWide ? ' case-video-wrap--wide' : ''}">${player}</div>`;
 
   return `
-    <section class="case-video${p.videoMockup ? ' case-video--laptop' : ''}">
+    <section class="case-video${p.videoMockup ? ' case-video--laptop' : ''}${p.videoWide ? ' case-video--wide' : ''}">
       <h2>${title}</h2>
       <p class="case-video-desc">${desc}</p>
       ${wrap}
@@ -130,7 +130,7 @@ function renderProject(p) {
         : (p.screens?.[i] ? [p.screens[i]] : []);
       const multi = imgs.length > 1 || c.wide;
       const media = imgs.length
-        ? `<div class="case-challenge-imgs${imgs.length > 1 ? ' case-challenge-imgs--stack' : ''}${c.wide && imgs.length === 1 ? ' case-challenge-imgs--full' : ''}">
+        ? `<div class="case-challenge-imgs${imgs.length > 1 ? ' case-challenge-imgs--stack' : ''}${c.wide && imgs.length === 1 ? ' case-challenge-imgs--full' : ''}${c.compact ? ' case-challenge-imgs--compact' : ''}">
             ${imgs.map(img => `
               <figure class="case-challenge-img">
                 <img src="${screenSrc(img)}" alt="${typeof img === 'object' && img.label ? img.label : c.title}" loading="lazy">
@@ -140,7 +140,7 @@ function renderProject(p) {
           </div>`
         : `<div class="case-challenge-img"><span class="case-hero-placeholder">${p.title}</span></div>`;
       return `
-      <div class="case-challenge${multi ? ' case-challenge--wide' : ''}${p.blockStyle === 'feature' ? ' case-challenge--feature' : ''}${!multi && p.blockStyle === 'feature' && i % 2 === 1 ? ' case-challenge--flip' : ''}">
+      <div class="case-challenge${multi ? ' case-challenge--wide' : ''}${p.blockStyle === 'feature' ? ' case-challenge--feature' : ''}${!multi && p.blockStyle === 'feature' && i % 2 === 1 ? ' case-challenge--flip' : ''}${c.compact ? ' case-challenge--compact' : ''}">
         <div class="case-challenge-text">
           <h3>${heading}</h3>
           <p>${c.body}</p>

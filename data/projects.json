@@ -81,6 +81,11 @@
     "tools": "p5.js, JavaScript, Figma, Cursor",
     "preview": "assets/images/nekobeat-preview.png",
     "image": "assets/images/nekobeat-hero.png",
+    "video": "assets/video/nekobeat-gameplay.mp4",
+    "videoPoster": "assets/images/nekobeat-video-poster.png",
+    "videoTitle": "Gameplay",
+    "videoDesc": "Screen recording of Neko Beat in play — timing notes, combos, and misses.",
+    "videoWide": true,
     "link": "https://n25nguyen.github.io/A3_Group7B/",
     "linkLabel": "Play the game →",
     "overview": "Built for a design brief on representing a human condition through interaction. I led visual and interaction design, then co-developed the game in p5.js with Cursor — using AI to implement HUD, controls, and gameplay systems from design decisions.",
@@ -90,6 +95,13 @@
     "solution": "Notes travel down lanes toward a hit bar. Players start with F and J, then unlock more keys in later levels. Mistimed presses create friction that echoes disrupted motor control — not as a clinical simulation, but as a felt timing challenge.",
     "blockStyle": "feature",
     "challenges": [
+      {
+        "title": "Timing friction",
+        "body": "A mistimed press breaks the combo and flashes Miss — immediate feedback so players feel the cost of imperfect timing without leaving the game fantasy.",
+        "images": [
+          { "src": "assets/images/nekobeat-miss.png", "label": "Miss feedback in play" }
+        ]
+      },
       {
         "title": "AI-assisted development",
         "body": "Used Cursor to turn design ideas into working code — multi-file edits for score/combo HUD, pause overlay, mute controls, and keyboard instruction clarity. I directed the gameplay intent; AI accelerated implementation across HTML, CSS, and sketch.js.",
@@ -111,90 +123,121 @@
           { "src": "assets/images/nekobeat-title.png", "label": "Title screen" }
         ]
       }
-    ],
-    "placeholders": [
-      { "label": "Gameplay recording", "note": "15–30s clip of playing — send when ready." },
-      { "label": "Hit / miss moment", "note": "Screenshot of a successful hit or mistimed miss." }
     ]
   },
   {
     "id": "sweet-soaperie",
     "title": "Sweet Soaperie",
-    "summary": "Brand and packaging design for a handmade soap company — visual identity, product labels, and marketing materials.",
-    "tags": ["Branding", "Packaging"],
-    "date": "TBD",
-    "role": "Designer",
-    "tools": "Figma, Illustrator",
-    "preview": "",
-    "image": "",
-    "draft": true,
-    "overview": "Brand identity and packaging design for Sweet Soaperie — a handmade soap brand. Content coming soon.",
-    "problem": null,
-    "objective": null,
-    "solution": null,
-    "screens": []
-  },
-  {
-    "id": "sprout",
-    "title": "Sprout",
-    "summary": "UX/UI project focused on growth, wellness, or habit-building — details coming soon.",
-    "tags": ["UX/UI"],
-    "date": "TBD",
-    "role": "Product Designer",
+    "summary": "Website redesign for a Canadian handmade bath brand — clearer shopping flows, stronger hierarchy, and a sweeter brand feel.",
+    "tags": ["Website Redesign", "UI"],
+    "date": "Dec 2024",
+    "role": "Website Redesign",
     "tools": "Figma",
-    "preview": "",
-    "image": "",
-    "draft": true,
-    "overview": "Sprout — a UX/UI design project. Full case study content coming soon.",
-    "problem": null,
-    "objective": null,
-    "solution": null,
-    "screens": []
-  },
-  {
-    "id": "ux-explorations",
-    "title": "UX Explorations",
-    "summary": "Ongoing personal design explorations — from invite flows to onboarding, pushing UI craft through self-directed challenges.",
-    "tags": ["Personal", "UI Design"],
-    "date": "2025 — Now",
-    "role": "Personal Designs",
-    "tools": "Figma",
-    "preview": "assets/images/explorations-hero.png",
-    "image": "assets/images/explorations-hero.png",
-    "overview": "This space showcases my ongoing UX/UI explorations — from design challenges to experimental ideas I'm currently developing.",
-    "problem": null,
-    "objective": null,
-    "solution": null,
-    "screens": [
-      "assets/images/explorations-invite.png",
-      "assets/images/explorations-join.png"
-    ],
+    "preview": "assets/images/sweet-soaperie-preview.png",
+    "image": "assets/images/sweet-soaperie-hero.png",
+    "overview": "A redesign of The Sweet Soaperie — a handmade bath product brand based in Miramichi, NB. The goal was a more user-friendly, visually cohesive digital experience that matches the brand’s sweet, joyful personality.",
+    "problem": "How might we redesign The Sweet Soaperie’s website to better showcase products, improve usability, and reflect their joyful brand personality?",
+    "objective": "Improve visual hierarchy and layout, simplify navigation, and enhance product pages with clearer content and richer imagery.",
+    "solutionTitle": "Final solution",
+    "solution": "A cleaner shopping experience with clearer hierarchy, accessible pastel contrast, multi-image product storytelling, and a cohesive footer — balancing playful brand expression with usability for a small-business e-commerce site.",
+    "blockStyle": "feature",
     "challenges": [
       {
-        "title": "Inviting Teammates",
-        "body": "A high-fidelity feature for adding multiple team members with intuitive navigation and clear feedback."
+        "title": "Homepage & shop",
+        "body": "Restructured the homepage around best sellers and a clearer Shop Now path, with a product grid that makes browsing feel inviting instead of cluttered.",
+        "images": [
+          { "src": "assets/images/sweet-soaperie-home.png", "label": "Homepage — best sellers" },
+          { "src": "assets/images/sweet-soaperie-shop.png", "label": "Shop — handmade soap" }
+        ]
       },
       {
-        "title": "Joining & Accepting",
-        "body": "A sign-up and invitation acceptance flow emphasizing clarity and minimal input."
+        "title": "Product storytelling",
+        "body": "Expanded Explore moments like “Bath bombs in action” with richer imagery, ingredients context, and related products — fixing thin pages that previously relied on a single vague image.",
+        "images": [
+          { "src": "assets/images/sweet-soaperie-product-page.png", "label": "Explore — bath bombs in action" }
+        ]
+      },
+      {
+        "title": "Contact & find a store",
+        "body": "Simplified the contact journey with a clear form and store-finder section so customers can reach the brand without hunting through cluttered nav.",
+        "images": [
+          { "src": "assets/images/sweet-soaperie-contact.png", "label": "Contact & store locator" }
+        ]
+      },
+      {
+        "title": "Brand presence",
+        "body": "Kept soft pastel identity while improving contrast and packaging-adjacent photography so the digital experience feels as clean as the products.",
+        "images": [
+          { "src": "assets/images/sweet-soaperie-product.png", "label": "Hand cream product photography" }
+        ]
       }
     ]
   },
   {
-    "id": "soonhari",
-    "title": "Soonhari",
-    "summary": "Brand and product design for Soonhari — visual identity, packaging, or digital experience. Content coming soon.",
-    "tags": ["Branding", "Product Design"],
-    "date": "TBD",
-    "role": "Designer",
+    "id": "sprout",
+    "title": "Sprout",
+    "summary": "A 12-hour UX design jam app helping young Canadian parents budget with goals and community support.",
+    "tags": ["UX Design", "Mobile"],
+    "date": "Nov 2024",
+    "role": "UX Design",
     "tools": "Figma",
-    "preview": "",
-    "image": "",
-    "draft": true,
-    "overview": "Soonhari — brand and design project. Full case study content coming soon.",
-    "problem": null,
-    "objective": null,
-    "solution": null,
-    "screens": []
+    "preview": "assets/images/sprout-preview.png",
+    "image": "assets/images/sprout-hero.png",
+    "overview": "Sprout is a mobile budgeting app concept from the 2024 uXperience Design Jam — designed in a 12-hour sprint to help young Canadian parents feel more confident with financial tools during a major life transition. Our team placed third.",
+    "problem": "How might we help young Canadians discover and use financial tools and education tailored to their needs — especially new parents overwhelmed by money stress?",
+    "objective": "Make financial planning less intimidating through clear, goal-based budgeting and a supportive parent community.",
+    "solutionTitle": "Final solution",
+    "solution": "A calm, approachable interface with goal tracking, simple contributions, and a community space — soft greens, clear hierarchy, and parent-focused flows that feel supportive instead of judgmental.",
+    "blockStyle": "feature",
+    "challenges": [
+      {
+        "title": "Key screens",
+        "body": "Splash, login, add-to-goal, home, community, and profile — designed in a 12-hour sprint with a calm sage palette and clear hierarchy.",
+        "wide": true,
+        "compact": true,
+        "images": [
+          { "src": "assets/images/sprout-screens.png", "label": "Core app flows" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ux-explorations",
+    "title": "UX Explorations",
+    "summary": "Self-directed design challenges — invite flows, onboarding, and multi-step mobile UI craft.",
+    "tags": ["UI Design", "Craft"],
+    "date": "2025 — Now",
+    "role": "Personal Designs",
+    "tools": "Figma",
+    "preview": "assets/images/explorations-preview.png",
+    "image": "assets/images/explorations-hero.png",
+    "overview": "A living space for UI craft. Short design challenges where I practice clarity, feedback, and visual polish on everyday product patterns — starting with team invites and join flows.",
+    "problem": "How might we make inviting teammates and joining a product feel effortless instead of tedious?",
+    "objective": "Design high-fidelity mobile flows that feel light, clear, and rewarding — with minimal input and obvious next steps.",
+    "solutionTitle": "Focus",
+    "solution": "Soft gradients, pill controls, and step-by-step progress keep attention on one action at a time — whether sending invites or finishing a short onboarding.",
+    "blockStyle": "feature",
+    "challenges": [
+      {
+        "title": "Inviting teammates",
+        "body": "Add multiple people by email or link, set roles inline, and send invites with clear feedback — so collaboration setup feels quick instead of admin-heavy.",
+        "wide": true,
+        "compact": true,
+        "images": [
+          { "src": "assets/images/explorations-invite-email.png", "label": "Invite with email" },
+          { "src": "assets/images/explorations-invite-link.png", "label": "Invite with link" }
+        ]
+      },
+      {
+        "title": "Joining & accepting",
+        "body": "A short sign-up path with progress cues and a small delight moment — unlocking a profile badge — so onboarding stays focused and rewarding.",
+        "wide": true,
+        "compact": true,
+        "images": [
+          { "src": "assets/images/explorations-join-start.png", "label": "Step 1 — Join your journey" },
+          { "src": "assets/images/explorations-join-details.png", "label": "Step 2 — Profile badge unlocked" }
+        ]
+      }
+    ]
   }
 ]
